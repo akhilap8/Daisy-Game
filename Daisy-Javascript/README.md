@@ -4,3 +4,6 @@ The objective of this game is to help a little girl named Daisy collect her cand
 
 
 Below is a demo of the game.
+
+
+![](daisydemo.gif)
