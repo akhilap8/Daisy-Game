@@ -141,13 +141,13 @@ class Daisy(Item):
 		self.vert_vel += 2.0
 		self.y += self.vert_vel
 
-		# have mario land on ground
+		# have daisy land on ground
 		if (self.y > 330):
 			self.vert_vel = 0.0
 			self.y = 330 # snap back to the ground
 			self.frameCount=0
 		
-		# add cap to how high mario can jump
+		# how high daisy can jump (can't go off the screen
 		if (self.y < 0):
 			self.y=0
 		
